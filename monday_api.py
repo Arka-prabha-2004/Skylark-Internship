@@ -6,7 +6,9 @@ from data_utils import parse_board_items, clean_dataframe
 
 load_dotenv()
 
-API_KEY = os.getenv("MONDAY_API_KEY")
+import streamlit as st
+
+API_KEY = os.getenv("MONDAY_API_KEY") or st.secrets["MONDAY_API_KEY"]
 
 print("API KEY LOADED:", API_KEY is not None)
 

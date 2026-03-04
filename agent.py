@@ -8,8 +8,11 @@ from config import DEALS_BOARD_ID, WORK_ORDERS_BOARD_ID
 
 load_dotenv()
 
-client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
+import streamlit as st
 
+api_key = os.getenv("GEMINI_API_KEY") or st.secrets["GEMINI_API_KEY"]
+
+client = genai.Client(api_key=api_key)
 
 def get_deals_data():
     data = fetch_board_items(DEALS_BOARD_ID)
