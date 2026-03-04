@@ -28,7 +28,7 @@ Business Metric Computation
 Gemini LLM Reasoning
      ↓
 Natural Language Insight
-```
+``` 
 
 Key components:
 
