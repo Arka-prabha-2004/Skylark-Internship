@@ -147,14 +147,14 @@ http://localhost:8501
 A deployed version of the application is available at:
 
 ```
-[Hosted App Link]
+https://skylark-internship-submission-arkaprabha.streamlit.app/
 ```
 
 Source monday.com boards:
 
 ```
-Deals Board: [Board Link]
-Work Orders Board: [Board Link]
+Deals Board: https://arkaprabha05022004s-team.monday.com/boards/5026988160
+Work Orders Board: https://arkaprabha05022004s-team.monday.com/boards/5026988627
 ```
 
 ---
